@@ -5,10 +5,10 @@
     <title>Randomkittens by mrigo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -25,7 +25,7 @@
       $scope.giveMeKittens = function() {
         var height = 400 + Math.floor((Math.random() * 98) + 1) + 1;
         var width = 600 + Math.floor((Math.random() * 98) + 1) + 1;
-        $scope.image = 'http://placekitten.com/' + width + '/' + height;
+        $scope.image = '//placekitten.com/' + width + '/' + height;
         isImage($scope.image).then(function(test) {
             if (!test) {
               ga('send', 'event', 'KittyClick', 'giveMeKittens', 'success', 0);
@@ -82,13 +82,13 @@ Kittens'll be there for you <br>
 ('Cause you're there for them too)<br></p>
 
 <p>Freely inspired by <a href="https://www.youtube.com/watch?v=813bZYxnwYA">Friends OST</a><br>
-Thanks also to <a href="http://placekitten.com/">http://placekitten.com/</a></p>
+Thanks also to <a href="https://placekitten.com/">https://placekitten.com/</a></p>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <p>Me.<br>
-<a href="http://placekitten.com/">http://placekitten.com/</a></p>
+<a href="https://placekitten.com/">https://placekitten.com/</a></p>
 
 <h3>
 <a id="why" class="anchor" href="#why" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why?</h3>
